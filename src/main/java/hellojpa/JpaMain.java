@@ -17,7 +17,7 @@ public class JpaMain {
 
         try {
 
-            //영속AAA
+            //영속AAAA
             Member member = em.find(Member.class, 150L);
             member.setName("ZZZZ");
 
